@@ -1,0 +1,25 @@
+body{
+	background: #134151;
+}
+
+.center > p{
+	color: white;
+	font-size: 35px;
+	margin:0 auto 2% auto; 
+}
+
+.center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+@media screen and (max-width: 768px){
+	.center > p{
+		color: white;
+		font-size: 20px;
+		margin:0 auto 2% auto; 
+	}
+}
